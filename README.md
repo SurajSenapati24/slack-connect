@@ -85,3 +85,39 @@ export const API_BASE_URL = "https://<your-ngrok-url>";
 
 npm run dev
 
+
+### 🔑 Slack App Setup
+Go to Slack API: Your Apps and create a new app.
+
+Enable OAuth & Permissions.
+
+Add redirect URL:
+
+perl
+Copy
+Edit
+https://<your-ngrok-url>/auth/slack/callback
+Add Bot Token Scopes:
+
+chat:write
+
+channels:read
+
+Install app to your workspace.
+
+Add the bot to the desired channels manually.
+
+
+📌 Usage
+Start backend and frontend.
+
+Click "Connect Slack" in the UI.
+
+Authorize the app in the Slack popup.
+
+Select a channel.
+
+Write your message.
+
+Click Send Now or Schedule.
+
