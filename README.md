@@ -35,22 +35,22 @@ Built with **Vite + React** for the frontend and **Node.js (Express + TypeScript
 ---
 
 ## 📂 Project Structure
-slack-connect/
-│
-├── backend/
-│ ├── src/server.ts # Main Express server
-│ ├── .env # Environment variables
-│ ├── db.json # LowDB storage
-│ ├── package.json
-│ └── tsconfig.json
-│
-├── frontend/
-│ ├── src/ App.jsx # main frontend file
-│ ├── public/
-│ ├── package.json
-│ └── vite.config.js
-│
-└── README.md
+- slack-connect/
+- │
+- | ── backend/
+- │ ├── src/server.ts # Main Express server
+- │ ├── .env # Environment variables
+- │ ├── db.json # LowDB storage
+- │ ├── package.json
+- │ └── tsconfig.json
+- │
+- ├── frontend/
+- │ ├── src/ App.jsx # main frontend file
+- │ ├── public/
+- │ ├── package.json
+- │ └── vite.config.js
+- │
+- └── README.md
 
 
 ---
